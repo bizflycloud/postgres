@@ -544,7 +544,7 @@ ltree2text(PG_FUNCTION_ARGS)
 	{
 		if (i != 0)
 		{
-			*ptr = '.';
+			*ptr = NODE_DELIMITER_CHAR;
 			ptr++;
 		}
 		memcpy(ptr, curlevel->name, curlevel->len);

@@ -7,6 +7,8 @@
 #include "tsearch/ts_locale.h"
 #include "utils/memutils.h"
 
+#define NODE_DELIMITER_CHAR '/'
+
 typedef struct
 {
 	uint16		len;
